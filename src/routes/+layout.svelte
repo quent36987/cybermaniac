@@ -12,6 +12,7 @@
 
 	<footer>
 		<p>© cybermaniac2007</p>
+		<a class="link" href="/condition">informations légales</a>
 	</footer>
 </div>
 
@@ -20,6 +21,12 @@
 		display: flex;
 		flex-direction: column;
 		min-height: 100vh;
+	}
+
+	.link{
+		position: absolute;
+		right: 0;
+		margin-right: var(--spacing-l);
 	}
 
 	main {
@@ -31,6 +38,7 @@
 	}
 
 	footer {
+		position: relative;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -40,6 +48,7 @@
 
 	footer a {
 		font-weight: bold;
+		color: var(--color-primary);
 	}
 
 	@media (min-width: 480px) {

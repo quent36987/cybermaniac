@@ -8,8 +8,6 @@
 		'Modélisation Technique',
 		'Matériaux'
 	];
-
-	let menuOpen = false;
 </script>
 
 <header>
@@ -26,9 +24,9 @@
 				{/each}
 			</div>
 		</div>
-		<a href="contact.php">Boutique</a>
-		<a href="contact.php">Plan d'accès</a>
-		<a href="contact.php">Contact</a>
+		<a href="/boutique">Boutique</a>
+		<a href="/plan">Plan d'accès</a>
+		<a href="/contact">Contact</a>
 	</div>
 </header>
 
