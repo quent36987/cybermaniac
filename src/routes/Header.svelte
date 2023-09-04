@@ -18,11 +18,11 @@
 		},
 		{
 			title: 'Modélisation Technique',
-			link: 'modelisation'
+			link: 'impression3d#modelisation'
 		},
 		{
-			title: 'Matériaux',
-			link: 'materiaux'
+			title: 'Vente de consommables',
+			link: 'impression3d#consommables'
 		}
 	];
 </script>

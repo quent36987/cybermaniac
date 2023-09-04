@@ -1,5 +1,5 @@
 <script>
-	// Votre script JavaScript si nécessaire
+
 </script>
 
 <div class="content-wrapper">
@@ -126,7 +126,7 @@
 	</div>
 
 	<!-- Section : Nos modélisation -->
-	<div class="section">
+	<div class="section" id="modelisation">
 		<div class="title">Nos modélisation</div>
 		<p class="description">
 			Notre service d'impression 3D est accessible tant aux particuliers qu'aux professionnels, dans
@@ -167,6 +167,40 @@
 			</div>
 		</div>
 	</div>
+
+	<div class="section" id="consommables">
+		<div class="title">Vente de consommables</div>
+
+		<div class="page">
+			<div class="desc">
+				Nous proposons également la vente de consommables pour vos besoins en impression 3D. Que vous utilisiez une imprimante 3D FDM (dépôt de filament fondu) ou SLA/DLP (stéréolithographie), nous avons une gamme variée de consommables disponibles. Pour les imprimantes FDM, nous fournissons une sélection de filaments de haute qualité dans différents matériaux tels que le PLA, l'ABS, le PETG, le nylon, le bois,  et bien d'autres. Chaque matériau offre des caractéristiques spécifiques en termes de résistance, de flexibilité, de finition de surface et de propriétés mécaniques.
+
+				En ce qui concerne les imprimantes SLA/DLP, nous fournissons des résines de qualité d'impression élevées. Nos consommables sont soigneusement sélectionnés auprès de fabricants réputés pour assurer une performance optimale et des résultats de qualité. Nous nous efforçons de fournir des produits fiables et durables pour soutenir vos projets d'impression 3D. N'hésitez pas à nous contacter pour découvrir notre gamme de consommables et obtenir des conseils sur les matériaux les plus adaptés à vos applications.
+			</div>
+
+			<div class="images">
+				<img class="image" src="/src/lib/about/impression3d/image1.png" alt="Entretiens d'imprimantes" />
+			</div>
+		</div>
+	</div>
+
+	<div class="section">
+		<div class="title">Vente de composants</div>
+
+		<div class="page"><div class="images">
+			<img class="image" src="/src/lib/about/impression3d/image2.jpg" alt="Entretiens d'imprimantes" />
+		</div>
+			<div class="desc">
+				Nous proposons également la vente de consommables pour vos besoins en impression 3D. Que vous utilisiez une imprimante 3D FDM (dépôt de filament fondu) ou SLA/DLP (stéréolithographie), nous avons une gamme variée de consommables disponibles. Pour les imprimantes FDM, nous fournissons une sélection de filaments de haute qualité dans différents matériaux tels que le PLA, l'ABS, le PETG, le nylon, le bois,  et bien d'autres. Chaque matériau offre des caractéristiques spécifiques en termes de résistance, de flexibilité, de finition de surface et de propriétés mécaniques.
+
+				En ce qui concerne les imprimantes SLA/DLP, nous fournissons des résines de qualité d'impression élevées. Nos consommables sont soigneusement sélectionnés auprès de fabricants réputés pour assurer une performance optimale et des résultats de qualité. Nous nous efforçons de fournir des produits fiables et durables pour soutenir vos projets d'impression 3D. N'hésitez pas à nous contacter pour découvrir notre gamme de consommables et obtenir des conseils sur les matériaux les plus adaptés à vos applications.
+			</div>
+
+
+		</div>
+	</div>
+
+
 </div>
 
 <style>
@@ -174,6 +208,39 @@
 		max-width: 1200px;
 		margin: auto;
 		padding: var(--spacing-l);
+	}
+
+	.page {
+		display: flex;
+		justify-content: space-between;
+		gap: var(--spacing-l);
+	}
+
+	.desc {
+		flex: 2.5;
+		line-height: 1.6;
+		font-size: 18px;
+	}
+
+	.desc strong {
+		color: #333;
+		font-weight: bold;
+	}
+
+	.images {
+		flex: 1;
+	}
+
+	.image {
+		max-width: 100%;
+		display: block;
+		box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+		border-radius: 5px;
+		transition: transform 0.3s ease;
+	}
+
+	.image:hover {
+		transform: scale(1.05);
 	}
 
 	.section {

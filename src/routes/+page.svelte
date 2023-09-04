@@ -37,13 +37,13 @@
 			name: 'Modélisation Technique',
 			description: "Redonnez vie à vos objets et plans avec notre service de modélisation 3D.",
 			image: '/src/lib/modelisation.jpg',
-			link: 'impression3d'
+			link: 'impression3d#modelisation'
 		},
 		{
-			name: 'Matériaux',
+			name: 'Vente de consommables',
 			description: "Conseils sur les matériaux adaptés et vente de matières premières pour l'impression 3D.",
 			image: '/src/lib/materiaux.jpg',
-			link: 'vente'
+			link: 'impression3d#consommables'
 		}
 	];
 
@@ -98,7 +98,7 @@
 				<div class="item-desc">
 					<h3>{game.name}</h3>
 					<p>{game.description}</p>
-					<a class="link" href="/about/{index}">En savoir plus</a>
+					<a class="link" href="/about/{game.link}">En savoir plus</a>
 				</div>
 			</div>
 		{/each}
