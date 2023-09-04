@@ -29,7 +29,7 @@
 </script>
 
 <section>
-
+ca sera pas ca x) (en cours de dev)
 	<div class="articles-container">
 		{#each articles as article (article.id)}
 			<div class="article">

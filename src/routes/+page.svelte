@@ -1,42 +1,49 @@
 <script>
-	let activeIndex = -1;
+	let activeIndex = 0;
 	let cardElements = [];
 	let dots = [];
 	const services = [
 		{
 			name: 'Entretiens de vos équipements',
 			description: "Expertise en entretien informatique avec devis gratuit. Votre satisfaction est notre priorité.",
-			image: '/src/lib/entretien.jpeg'
+			image: '/src/lib/entretien.jpeg',
+			link: 'entretiens'
 		},
 		{
 			name: 'Vente Informatique',
 			description: "Large gamme d'ordinateurs, du bureautique au gaming et configurations personnalisées.",
-			image: '/src/lib/vente.png'
+			image: '/src/lib/vente.png',
+			link: 'vente'
 		},
 		{
 			name: 'Déplacement à domicile',
 			description: "Partenariat avec Frozeyes IMR pour des interventions à domicile. Solutions rapides par des experts.",
-			image: '/src/lib/domicil.jpg'
+			image: '/src/lib/domicil.jpg',
+			link: 'domicile'
 		},
 		{
 			name: 'Impression 3D FDM',
 			description: "Réparation d'objets et création personnalisée grâce à l'impression 3D.",
-			image: '/src/lib/impression.jpg'
+			image: '/src/lib/impression.jpg',
+			link: 'impression3d'
 		},
 		{
 			name: 'Impression 3D Résine',
 			description: 'Créations de précision avec impression en résine pour vos projets.',
-			image: '/src/lib/resine.jpg'
+			image: '/src/lib/resine.jpg',
+			link: 'impression3d'
 		},
 		{
 			name: 'Modélisation Technique',
 			description: "Redonnez vie à vos objets et plans avec notre service de modélisation 3D.",
-			image: '/src/lib/modelisation.jpg'
+			image: '/src/lib/modelisation.jpg',
+			link: 'impression3d'
 		},
 		{
 			name: 'Matériaux',
 			description: "Conseils sur les matériaux adaptés et vente de matières premières pour l'impression 3D.",
-			image: '/src/lib/materiaux.jpg'
+			image: '/src/lib/materiaux.jpg',
+			link: 'vente'
 		}
 	];
 

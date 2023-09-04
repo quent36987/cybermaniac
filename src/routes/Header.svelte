@@ -1,12 +1,29 @@
 <script>
 	let services = [
-		'Entretiens de vos équipements',
-		'Vente Informatique',
-		'Déplacement à domicile',
-		'Impression 3D FDM',
-		'Impression 3D Résine',
-		'Modélisation Technique',
-		'Matériaux'
+		{
+			title: "Vente d'équipements",
+			link: 'vente'
+		},
+		{
+			title: 'Entretiens de vos équipements',
+			link: 'entretiens'
+		},
+		{
+			title: 'Déplacement à domicile',
+			link: 'domicile'
+		},
+		{
+			title: 'Impression 3D FDM et Résine',
+			link: 'impression3d'
+		},
+		{
+			title: 'Modélisation Technique',
+			link: 'modelisation'
+		},
+		{
+			title: 'Matériaux',
+			link: 'materiaux'
+		}
 	];
 </script>
 
@@ -19,8 +36,8 @@
 		<div class="dropdown">
 			<a>Services</a>
 			<div class="dropdown-content">
-				{#each services as service,index}
-					<a href="/about/{index}">{service}</a>
+				{#each services as service}
+					<a href="/about/{service.link}">{service.title}</a>
 				{/each}
 			</div>
 		</div>
