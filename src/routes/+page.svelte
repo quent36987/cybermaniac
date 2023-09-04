@@ -6,37 +6,37 @@
 		{
 			name: 'Entretiens de vos équipements',
 			description: "Expertise en entretien informatique avec devis gratuit. Votre satisfaction est notre priorité.",
-			image: 'src/lib/entretien.jpeg'
+			image: '/src/lib/entretien.jpeg'
 		},
 		{
 			name: 'Vente Informatique',
 			description: "Large gamme d'ordinateurs, du bureautique au gaming et configurations personnalisées.",
-			image: 'src/lib/vente.png'
+			image: '/src/lib/vente.png'
 		},
 		{
 			name: 'Déplacement à domicile',
 			description: "Partenariat avec Frozeyes IMR pour des interventions à domicile. Solutions rapides par des experts.",
-			image: 'src/lib/domicil.jpg'
+			image: '/src/lib/domicil.jpg'
 		},
 		{
 			name: 'Impression 3D FDM',
 			description: "Réparation d'objets et création personnalisée grâce à l'impression 3D.",
-			image: 'src/lib/impression.jpg'
+			image: '/src/lib/impression.jpg'
 		},
 		{
 			name: 'Impression 3D Résine',
 			description: 'Créations de précision avec impression en résine pour vos projets.',
-			image: 'src/lib/resine.jpg'
+			image: '/src/lib/resine.jpg'
 		},
 		{
 			name: 'Modélisation Technique',
 			description: "Redonnez vie à vos objets et plans avec notre service de modélisation 3D.",
-			image: 'src/lib/modelisation.jpg'
+			image: '/src/lib/modelisation.jpg'
 		},
 		{
 			name: 'Matériaux',
 			description: "Conseils sur les matériaux adaptés et vente de matières premières pour l'impression 3D.",
-			image: 'src/lib/materiaux.jpg'
+			image: '/src/lib/materiaux.jpg'
 		}
 	];
 
@@ -91,7 +91,7 @@
 				<div class="item-desc">
 					<h3>{game.name}</h3>
 					<p>{game.description}</p>
-					<div class="link">En savoir plus</div>
+					<a class="link" href="/about/{index}">En savoir plus</a>
 				</div>
 			</div>
 		{/each}
@@ -122,18 +122,11 @@
 		height: 4px;
 		border-radius: 2px;
 	}
-	.line-title::before {
-		width: 100%;
-		background: #f2f2f2;
-	}
-	.line-title::after {
-		width: 50%;
-		background: #0064e7;
-	}
+
 
 	/* Middle section CSS */
 	.game-section {
-		padding: 60px 50px;
+		padding: 20px 50px;
 	}
 
 	.carousel {

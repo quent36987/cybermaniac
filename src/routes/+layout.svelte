@@ -11,7 +11,7 @@
 	</main>
 
 	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+		<p>© cybermaniac2007</p>
 	</footer>
 </div>
 
@@ -24,7 +24,7 @@
 
 	main {
 		flex: 1;
-		padding: 1rem;
+		padding: 0.5rem;
 		margin: 0 auto;
 		box-sizing: border-box;
 		width: 100%;
