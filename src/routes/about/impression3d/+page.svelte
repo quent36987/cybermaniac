@@ -17,28 +17,28 @@
 		</p>
 		<div class="image-gallery">
 			<div class="img-wrapper">
-				<img src="/src/lib/about/impression3d/section1/image1.jpg" alt="Image 1" />
+				<img src="/about/impression3d/section1/image1.jpg" alt="Image 1" />
 			</div>
 			<div class="img-wrapper">
-				<img src="/src/lib/about/impression3d/section1/image2.jpg" alt="Image 2" />
+				<img src="/about/impression3d/section1/image2.jpg" alt="Image 2" />
 			</div>
 			<div class="img-wrapper">
-				<img src="/src/lib/about/impression3d/section1/image3.jpg" alt="Image 3" />
+				<img src="/about/impression3d/section1/image3.jpg" alt="Image 3" />
 			</div>
 			<div class="img-wrapper">
-				<img src="/src/lib/about/impression3d/section1/image8.jpg" alt="Image 8" />
+				<img src="/about/impression3d/section1/image8.jpg" alt="Image 8" />
 			</div>
 			<div class="img-wrapper">
-				<img src="/src/lib/about/impression3d/section1/image9.jpg" alt="Image 9" />
+				<img src="/about/impression3d/section1/image9.jpg" alt="Image 9" />
 			</div>
 			<div class="img-wrapper">
-				<img src="/src/lib/about/impression3d/section1/image5.jpg" alt="Image 5" />
+				<img src="/about/impression3d/section1/image5.jpg" alt="Image 5" />
 			</div>
 			<div class="img-wrapper">
-				<img src="/src/lib/about/impression3d/section1/image4.jpg" alt="Image 4" />
+				<img src="/about/impression3d/section1/image4.jpg" alt="Image 4" />
 			</div>
 			<div class="img-wrapper">
-				<img src="/src/lib/about/impression3d/section1/image6.jpg" alt="Image 6" />
+				<img src="/about/impression3d/section1/image6.jpg" alt="Image 6" />
 			</div>
 			<!-- Ajoutez autant d'images que nécessaire -->
 		</div>
@@ -56,37 +56,37 @@
 		</p>
 		<div class="image-gallery">
 			<div class="img-wrapper">
-				<img src="/src/lib/about/impression3d/section2/image1.jpg" alt="Image 4" />
+				<img src="/about/impression3d/section2/image1.jpg" alt="Image 4" />
 			</div>
 			<div class="img-wrapper">
-				<img src="/src/lib/about/impression3d/section2/image2.jpg" alt="Image 5" />
+				<img src="/about/impression3d/section2/image2.jpg" alt="Image 5" />
 			</div>
 			<div class="img-wrapper">
-				<img src="/src/lib/about/impression3d/section2/image3.png" alt="Image 4" />
+				<img src="/about/impression3d/section2/image3.png" alt="Image 4" />
 			</div>
 			<div class="img-wrapper">
-				<img src="/src/lib/about/impression3d/section2/image4.png" alt="Image 5" />
+				<img src="/about/impression3d/section2/image4.png" alt="Image 5" />
 			</div>
 			<div class="img-wrapper">
-				<img src="/src/lib/about/impression3d/section2/image5.png" alt="Image 4" />
+				<img src="/about/impression3d/section2/image5.png" alt="Image 4" />
 			</div>
 			<div class="img-wrapper">
-				<img src="/src/lib/about/impression3d/section2/image7.jpg" alt="Image 4" />
+				<img src="/about/impression3d/section2/image7.jpg" alt="Image 4" />
 			</div>
 			<div class="img-wrapper">
-				<img src="/src/lib/about/impression3d/section2/image8.jpg" alt="Image 5" />
+				<img src="/about/impression3d/section2/image8.jpg" alt="Image 5" />
 			</div>
 			<div class="img-wrapper">
-				<img src="/src/lib/about/impression3d/section2/image6.png" alt="Image 5" />
+				<img src="/about/impression3d/section2/image6.png" alt="Image 5" />
 			</div>
 			<div class="img-wrapper">
-				<img src="/src/lib/about/impression3d/section2/image9.jpg" alt="Image 5" />
+				<img src="/about/impression3d/section2/image9.jpg" alt="Image 5" />
 			</div>
 			<div class="img-wrapper">
-				<img src="/src/lib/about/impression3d/section2/image10.jpg" alt="Image 4" />
+				<img src="/about/impression3d/section2/image10.jpg" alt="Image 4" />
 			</div>
 			<div class="img-wrapper">
-				<img src="/src/lib/about/impression3d/section2/image11.jpg" alt="Image 5" />
+				<img src="/about/impression3d/section2/image11.jpg" alt="Image 5" />
 			</div>
 		</div>
 	</div>
@@ -96,31 +96,31 @@
 		<div class="title">Nos Impression SLA</div>
 		<div class="image-gallery">
 			<div class="img-wrapper">
-				<img src="/src/lib/about/impression3d/section3/image2.jpg" alt="Image 6" />
+				<img src="/about/impression3d/section3/image2.jpg" alt="Image 6" />
 			</div>
 			<div class="img-wrapper">
-				<img src="/src/lib/about/impression3d/section3/image9.jpg" alt="Image 6" />
+				<img src="/about/impression3d/section3/image9.jpg" alt="Image 6" />
 			</div>
 			<div class="img-wrapper">
-				<img src="/src/lib/about/impression3d/section3/image3.jpg" alt="Image 6" />
+				<img src="/about/impression3d/section3/image3.jpg" alt="Image 6" />
 			</div>
 			<div class="img-wrapper">
-				<img src="/src/lib/about/impression3d/section3/image4.jpg" alt="Image 6" />
+				<img src="/about/impression3d/section3/image4.jpg" alt="Image 6" />
 			</div>
 			<div class="img-wrapper">
-				<img src="/src/lib/about/impression3d/section3/image8.jpg" alt="Image 6" />
+				<img src="/about/impression3d/section3/image8.jpg" alt="Image 6" />
 			</div>
 			<div class="img-wrapper">
-				<img src="/src/lib/about/impression3d/section3/image5.jpg" alt="Image 6" />
+				<img src="/about/impression3d/section3/image5.jpg" alt="Image 6" />
 			</div>
 			<div class="img-wrapper">
-				<img src="/src/lib/about/impression3d/section3/image6.jpg" alt="Image 6" />
+				<img src="/about/impression3d/section3/image6.jpg" alt="Image 6" />
 			</div>
 			<div class="img-wrapper">
-				<img src="/src/lib/about/impression3d/section3/image7.jpg" alt="Image 6" />
+				<img src="/about/impression3d/section3/image7.jpg" alt="Image 6" />
 			</div>
 			<div class="img-wrapper">
-				<img src="/src/lib/about/impression3d/section3/image1.jpg" alt="Image 6" />
+				<img src="/about/impression3d/section3/image1.jpg" alt="Image 6" />
 			</div>
 		</div>
 	</div>
@@ -145,25 +145,25 @@
 		</p>
 		<div class="image-gallery">
 			<div class="img-wrapper">
-				<img src="/src/lib/about/impression3d/section4/image1.jpg" alt="Image 8" />
+				<img src="/about/impression3d/section4/image1.jpg" alt="Image 8" />
 			</div>
 			<div class="img-wrapper">
-				<img src="/src/lib/about/impression3d/section4/image7.jpg" alt="Image 8" />
+				<img src="/about/impression3d/section4/image7.jpg" alt="Image 8" />
 			</div>
 			<div class="img-wrapper">
-				<img src="/src/lib/about/impression3d/section4/image5.jpg" alt="Image 8" />
+				<img src="/about/impression3d/section4/image5.jpg" alt="Image 8" />
 			</div>
 			<div class="img-wrapper">
-				<img src="/src/lib/about/impression3d/section4/image6.jpg" alt="Image 8" />
+				<img src="/about/impression3d/section4/image6.jpg" alt="Image 8" />
 			</div>
 			<div class="img-wrapper">
-				<img src="/src/lib/about/impression3d/section4/image2.jpg" alt="Image 8" />
+				<img src="/about/impression3d/section4/image2.jpg" alt="Image 8" />
 			</div>
 			<div class="img-wrapper">
-				<img src="/src/lib/about/impression3d/section4/image3.jpg" alt="Image 8" />
+				<img src="/about/impression3d/section4/image3.jpg" alt="Image 8" />
 			</div>
 			<div class="img-wrapper">
-				<img src="/src/lib/about/impression3d/section4/image4.jpg" alt="Image 8" />
+				<img src="/about/impression3d/section4/image4.jpg" alt="Image 8" />
 			</div>
 		</div>
 	</div>
@@ -179,7 +179,7 @@
 			</div>
 
 			<div class="images">
-				<img class="image" src="/src/lib/about/impression3d/image1.png" alt="Entretiens d'imprimantes" />
+				<img class="image" src="/about/impression3d/image1.png" alt="Entretiens d'imprimantes" />
 			</div>
 		</div>
 	</div>
@@ -188,7 +188,7 @@
 		<div class="title">Vente de composants</div>
 
 		<div class="page"><div class="images">
-			<img class="image" src="/src/lib/about/impression3d/image2.jpg" alt="Entretiens d'imprimantes" />
+			<img class="image" src="/about/impression3d/image2.jpg" alt="Entretiens d'imprimantes" />
 		</div>
 			<div class="desc">
 				Nous proposons également la vente de consommables pour vos besoins en impression 3D. Que vous utilisiez une imprimante 3D FDM (dépôt de filament fondu) ou SLA/DLP (stéréolithographie), nous avons une gamme variée de consommables disponibles. Pour les imprimantes FDM, nous fournissons une sélection de filaments de haute qualité dans différents matériaux tels que le PLA, l'ABS, le PETG, le nylon, le bois,  et bien d'autres. Chaque matériau offre des caractéristiques spécifiques en termes de résistance, de flexibilité, de finition de surface et de propriétés mécaniques.

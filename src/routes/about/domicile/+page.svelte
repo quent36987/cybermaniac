@@ -17,7 +17,7 @@
 		</div>
 
 		<div class="images">
-			<img class="image" src="/src/lib/about/domicile/image1.png" alt="Déplacement à domicile" />
+			<img class="image" src="/about/domicile/image1.png" alt="Déplacement à domicile" />
 		</div>
 	</div>
 </div>

@@ -17,7 +17,7 @@
 		</div>
 
 		<div class="images">
-			<img class="image" src="/src/lib/about/entretiens/image1.jpg" alt="Entretiens d'imprimantes" />
+			<img class="image" src="/about/entretiens/image1.jpg" alt="Entretiens d'imprimantes" />
 		</div>
 	</div>
 </div>

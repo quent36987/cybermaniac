@@ -5,44 +5,48 @@
 	const services = [
 		{
 			name: 'Entretiens de vos équipements',
-			description: "Expertise en entretien informatique avec devis gratuit. Votre satisfaction est notre priorité.",
-			image: '/src/lib/entretien.jpeg',
+			description:
+				'Expertise en entretien informatique avec devis gratuit. Votre satisfaction est notre priorité.',
+			image: '/entretien.jpeg',
 			link: 'entretiens'
 		},
 		{
 			name: 'Vente Informatique',
-			description: "Large gamme d'ordinateurs, du bureautique au gaming et configurations personnalisées.",
-			image: '/src/lib/vente.png',
+			description:
+				"Large gamme d'ordinateurs, du bureautique au gaming et configurations personnalisées.",
+			image: '/vente.png',
 			link: 'vente'
 		},
 		{
 			name: 'Déplacement à domicile',
-			description: "Partenariat avec Frozeyes IMR pour des interventions à domicile. Solutions rapides par des experts.",
-			image: '/src/lib/domicil.jpg',
+			description:
+				'Partenariat avec Frozeyes IMR pour des interventions à domicile. Solutions rapides par des experts.',
+			image: '/domicil.jpg',
 			link: 'domicile'
 		},
 		{
 			name: 'Impression 3D FDM',
 			description: "Réparation d'objets et création personnalisée grâce à l'impression 3D.",
-			image: '/src/lib/impression.jpg',
+			image: '/impression.jpg',
 			link: 'impression3d'
 		},
 		{
 			name: 'Impression 3D Résine',
 			description: 'Créations de précision avec impression en résine pour vos projets.',
-			image: '/src/lib/resine.jpg',
+			image: '/resine.jpg',
 			link: 'impression3d'
 		},
 		{
 			name: 'Modélisation Technique',
-			description: "Redonnez vie à vos objets et plans avec notre service de modélisation 3D.",
-			image: '/src/lib/modelisation.jpg',
+			description: 'Redonnez vie à vos objets et plans avec notre service de modélisation 3D.',
+			image: '/modelisation.jpg',
 			link: 'impression3d#modelisation'
 		},
 		{
 			name: 'Vente de consommables',
-			description: "Conseils sur les matériaux adaptés et vente de matières premières pour l'impression 3D.",
-			image: '/src/lib/materiaux.jpg',
+			description:
+				"Conseils sur les matériaux adaptés et vente de matières premières pour l'impression 3D.",
+			image: '/materiaux.jpg',
 			link: 'impression3d#consommables'
 		}
 	];
@@ -129,7 +133,6 @@
 		height: 4px;
 		border-radius: 2px;
 	}
-
 
 	/* Middle section CSS */
 	.game-section {

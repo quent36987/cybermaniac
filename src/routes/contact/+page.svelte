@@ -4,7 +4,7 @@
 
 <main>
     <section class="contact-info">
-        <img src="/src/lib/magasin.jpg" alt="Magasin CyberManiac" class="store-image">
+        <img src="/magasin.jpg" alt="Magasin CyberManiac" class="store-image">
 
         <h2>Nos coordonnées</h2>
         <address>

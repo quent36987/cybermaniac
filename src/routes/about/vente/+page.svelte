@@ -14,7 +14,7 @@
 			</div>
 
 			<div class="images">
-				<img class="image" src="/src/lib/about/vente/image1.jpg" alt="Entretiens d'imprimantes" />
+				<img class="image" src="/about/vente/image1.jpg" alt="Entretiens d'imprimantes" />
 			</div>
 		</div>
 	</div>
@@ -24,7 +24,7 @@
 
 		<div class="page">
 			<div class="images">
-				<img class="image" src="/src/lib/about/vente/image2.jpg" alt="Entretiens d'imprimantes" />
+				<img class="image" src="/about/vente/image2.jpg" alt="Entretiens d'imprimantes" />
 			</div>
 			<div class="desc">
 				Chez CyberManiac, nous sommes fiers de proposer un service de montage de PC fixe
@@ -53,29 +53,29 @@
 		</p>
 		<div class="image-gallery">
 			<div class="img-wrapper">
-				<img src="/src/lib/about/vente/image4.jpg" alt="Image 4" />
+				<img src="/about/vente/image4.jpg" alt="Image 4" />
 			</div>
 			<div class="img-wrapper">
-				<img src="/src/lib/about/vente/image11.jpg" alt="Image 11" />
+				<img src="/about/vente/image11.jpg" alt="Image 11" />
 			</div>
 			<div class="img-wrapper">
-				<img src="/src/lib/about/vente/image5.jpg" alt="Image 5" />
+				<img src="/about/vente/image5.jpg" alt="Image 5" />
 			</div>
 			<div class="img-wrapper">
-				<img src="/src/lib/about/vente/image10.jpg" alt="Image 10" />
+				<img src="/about/vente/image10.jpg" alt="Image 10" />
 			</div>
 
 			<div class="img-wrapper">
-				<img src="/src/lib/about/vente/image7.jpg" alt="Image 7" />
+				<img src="/about/vente/image7.jpg" alt="Image 7" />
 			</div>
 			<div class="img-wrapper">
-				<img src="/src/lib/about/vente/image8.jpg" alt="Image 8" />
+				<img src="/about/vente/image8.jpg" alt="Image 8" />
 			</div>
 			<div class="img-wrapper">
-				<img src="/src/lib/about/vente/image9.jpg" alt="Image 9" />
+				<img src="/about/vente/image9.jpg" alt="Image 9" />
 			</div>
 			<div class="img-wrapper">
-				<img src="/src/lib/about/vente/image6.jpg" alt="Image 6" />
+				<img src="/about/vente/image6.jpg" alt="Image 6" />
 			</div>
 		</div>
 	</div>
@@ -94,10 +94,10 @@
 		</p>
 		<div class="image-gallery">
 			<div class="img-wrapper">
-				<img src="/src/lib/about/vente/image12.jpg" alt="Image 4" />
+				<img src="/about/vente/image12.jpg" alt="Image 4" />
 			</div>
 			<div class="img-wrapper">
-				<img src="/src/lib/about/vente/image13.jpg" alt="Image 11" />
+				<img src="/about/vente/image13.jpg" alt="Image 11" />
 			</div>
 		</div>
 	</div>
@@ -119,12 +119,12 @@
 			</div>
 
 			<div class="images">
-				<img class="image" src="/src/lib/about/vente/image14.jpg" alt="Entretiens d'imprimantes" />
+				<img class="image" src="/about/vente/image14.jpg" alt="Entretiens d'imprimantes" />
 			</div>
 		</div>
 		<div class="page">
 			<div class="images">
-				<img class="image" src="/src/lib/about/vente/image15.jpg" alt="Entretiens d'imprimantes" />
+				<img class="image" src="/about/vente/image15.jpg" alt="Entretiens d'imprimantes" />
 			</div>
 			<div class="desc">
 				Pour une navigation pratique et fluide, nous proposons des souris avec ou sans fil, adaptées
@@ -156,30 +156,30 @@
 		</p>
 		<div class="image-gallery">
 			<div class="img-wrapper">
-				<img src="/src/lib/about/vente/image17.jpg" alt="Image 11" />
+				<img src="/about/vente/image17.jpg" alt="Image 11" />
 			</div>
 			<div class="img-wrapper">
-				<img src="/src/lib/about/vente/image21.jpg" alt="Image 8" />
+				<img src="/about/vente/image21.jpg" alt="Image 8" />
 			</div>
 			<div class="img-wrapper">
-				<img src="/src/lib/about/vente/image16.jpg" alt="Image 4" />
+				<img src="/about/vente/image16.jpg" alt="Image 4" />
 			</div>
 			<div class="img-wrapper">
-				<img src="/src/lib/about/vente/image18.jpg" alt="Image 5" />
+				<img src="/about/vente/image18.jpg" alt="Image 5" />
 			</div>
 			<div class="img-wrapper">
-				<img src="/src/lib/about/vente/image19.jpg" alt="Image 10" />
-			</div>
-
-			<div class="img-wrapper">
-				<img src="/src/lib/about/vente/image20.jpg" alt="Image 7" />
-			</div>
-			<div class="img-wrapper">
-				<img src="/src/lib/about/vente/image23.jpg" alt="Image 6" />
+				<img src="/about/vente/image19.jpg" alt="Image 10" />
 			</div>
 
 			<div class="img-wrapper">
-				<img src="/src/lib/about/vente/image22.jpg" alt="Image 9" />
+				<img src="/about/vente/image20.jpg" alt="Image 7" />
+			</div>
+			<div class="img-wrapper">
+				<img src="/about/vente/image23.jpg" alt="Image 6" />
+			</div>
+
+			<div class="img-wrapper">
+				<img src="/about/vente/image22.jpg" alt="Image 9" />
 			</div>
 		</div>
 	</div>

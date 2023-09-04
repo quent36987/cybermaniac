@@ -29,7 +29,7 @@
 
 <header>
 	<a class="logo" href="/">
-		<img src="/src/lib/logo.png" alt="Company Logo" class="image" />
+		<img src="/logo.png" alt="Company Logo" class="image" />
 	</a>
 
 	<div class="link">
