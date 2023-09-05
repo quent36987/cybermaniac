@@ -1,18 +1,15 @@
-# Étape de build
-FROM node:18 as build
+FROM node:18-alpine AS builder
 
 WORKDIR /app
 
-# Copie du package.json et du package-lock.json pour installer les dépendances
-COPY package*.json ./
+COPY package.json ./
 
-# Installation des dépendances
 RUN npm install
 
-# Copie du reste des fichiers
 COPY . .
 
-# Build du projet
-EXPOSE 4173
+RUN npm run build
 
-CMD ["npm", "run", "dev"]
+EXPOSE 3000
+
+CMD ["node", "build"]
