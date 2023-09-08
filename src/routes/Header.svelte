@@ -44,6 +44,8 @@
 		<a href="/boutique">Boutique</a>
 		<a href="/plan">Plan d'accès</a>
 		<a href="/contact">Contact</a>
+		
+		<img src="/logoFRP2I.png" alt="FR2PI" class="FR2PI" />
 	</div>
 </header>
 
@@ -62,6 +64,10 @@
 
 	.logo {
 		width: 30rem;
+	}
+
+	.FR2PI{
+		width: 10rem;
 	}
 
 	.link {
