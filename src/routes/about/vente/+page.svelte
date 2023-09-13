@@ -259,4 +259,27 @@
 		column-count: 5; /* Pour avoir 5 images par ligne */
 		column-gap: var(--spacing-s);
 	}
+	@media screen and (max-width: 500px) {
+		.image-gallery {
+			column-count: 3;
+		}
+		.content-wrapper {
+			padding: var(--spacing-m);
+		}
+		.description {
+			font-size: 0.9rem;
+		}
+		.title {
+			font-size: 1.2rem;
+		}
+		.title {
+			font-size: 1.2rem;
+		}
+		.content-wrapper {
+			padding: var(--spacing-m);
+		}
+		.desc {
+			font-size: 0.8rem;
+		}
+	}
 </style>

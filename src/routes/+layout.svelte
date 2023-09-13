@@ -56,4 +56,15 @@
 			padding: 12px 0;
 		}
 	}
+
+	@media (max-width: 500px) {
+		.link{
+			position: relative;
+			margin-right: 0;
+		}
+		footer {
+			padding: 12px 0;
+			justify-content: space-between;
+		}
+	}
 </style>

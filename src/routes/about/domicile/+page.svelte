@@ -31,7 +31,7 @@
 
 	.title {
 		font-family: 'Century Gothic', Arial, sans-serif;
-		font-size: 30px;
+		font-size: 1.3rem;
 		padding-bottom: var(--spacing-l);
 		border-bottom: 3px solid #E0E0E0;
 		margin-bottom: var(--spacing-l);
@@ -46,7 +46,7 @@
 	.desc {
 		flex: 2.5;
 		line-height: 1.6;
-		font-size: 18px;
+		font-size: 1rem;
 	}
 
 	.desc strong {
@@ -68,5 +68,16 @@
 
 	.image:hover {
 		transform: scale(1.05);
+	}
+	@media screen and (max-width: 500px) {
+		.title {
+			font-size: 1.2rem;
+		}
+		.content-wrapper {
+			padding: var(--spacing-m);
+		}
+		.desc {
+			font-size: 0.8rem;
+		}
 	}
 </style>

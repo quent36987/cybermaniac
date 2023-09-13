@@ -69,4 +69,12 @@
 	.image:hover {
 		transform: scale(1.05);
 	}
+	@media screen and (max-width: 500px) {
+		.content-wrapper {
+			padding: var(--spacing-m);
+		}
+		.title {
+			font-size: 1.2rem;
+		}
+	}
 </style>

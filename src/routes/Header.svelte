@@ -1,4 +1,5 @@
 <script>
+	import { env } from '$env/dynamic/public'
 	let services = [
 		{
 			title: "Vente d'équipements",
@@ -28,25 +29,29 @@
 </script>
 
 <header>
-	<a class="logo" href="/">
-		<img src="/logo.png" alt="Company Logo" class="image" />
-	</a>
+	<div class="media-1">
+		<a class="logo" href="/">
+			<img src="/logo.png" alt="Company Logo" class="image" />
+		</a>
+	</div>
 
-	<div class="link">
-		<div class="dropdown">
-			<a>Services</a>
-			<div class="dropdown-content">
-				{#each services as service}
-					<a href="/about/{service.link}">{service.title}</a>
-				{/each}
+	<div class="media-2">
+		<div class="link">
+			<div class="dropdown">
+				<a>Services</a>
+				<div class="dropdown-content">
+					{#each services as service}
+						<a href="/about/{service.link}">{service.title}</a>
+					{/each}
+				</div>
 			</div>
+			<a href="{env.PUBLIC_STORE_URL}">Boutique</a>
+			<a href="/plan">Plan d'accès</a>
+			<a href="/contact">Contact</a>
 		</div>
-		<a href="/boutique">Boutique</a>
-		<a href="/plan">Plan d'accès</a>
-		<a href="/contact">Contact</a>
-		
 		<img src="/logoFRP2I.png" alt="FR2PI" class="FR2PI" />
 	</div>
+
 </header>
 
 <style>
@@ -62,6 +67,8 @@
 		width: 100%;
 	}
 
+
+
 	.logo {
 		width: 30rem;
 	}
@@ -69,6 +76,21 @@
 	.FR2PI{
 		width: 10rem;
 	}
+
+	@media (max-width : 500px) {
+		.FR2PI {
+			width: 5rem;
+		}
+	}
+
+	.media-2{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+	}
+
+
 
 	.link {
 		flex: 1;
@@ -112,5 +134,21 @@
 
 	a {
 		color: #4075a6;
+	}
+
+	@media (max-width : 500px) {
+		.media-1 {
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		header {
+			display: block;
+			padding: 0.5rem 3%;
+		}
+		.link {
+			font-size: 0.8rem;
+		}
 	}
 </style>

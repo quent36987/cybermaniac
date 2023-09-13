@@ -219,7 +219,7 @@
 	.desc {
 		flex: 2.5;
 		line-height: 1.6;
-		font-size: 18px;
+		font-size: 1rem;
 	}
 
 	.desc strong {
@@ -249,7 +249,7 @@
 
 	.title {
 		font-family: 'Century Gothic', Arial, sans-serif;
-		font-size: 24px;
+		font-size: 1.3rem;
 		padding-bottom: 1rem;
 		border-bottom: 2px solid #e0e0e0;
 		margin-bottom: 1rem;
@@ -257,7 +257,7 @@
 
 	.description {
 		margin-bottom: 1rem;
-		font-size: 18px;
+		font-size: 1rem;
 		line-height: 1.6;
 	}
 
@@ -276,5 +276,17 @@
 	.image-gallery {
 		column-count: 5; /* Pour avoir 5 images par ligne */
 		column-gap: var(--spacing-s);
+	}
+
+	@media screen and (max-width: 500px) {
+		.image-gallery {
+			column-count: 3;
+		}
+		.content-wrapper {
+			padding: var(--spacing-m);
+		}
+		.description {
+			font-size: 0.9rem;
+		}
 	}
 </style>

@@ -162,6 +162,9 @@
 		flex: 0 0 auto;
 		scroll-snap-align: start;
 	}
+
+
+
 	.item.active {
 		width: 500px;
 		box-shadow: 12px 20px 20px rgba(0, 0, 0, 0.25);
@@ -232,5 +235,31 @@
 
 	.dot.active {
 		background-color: #333;
+	}
+
+	@media (max-width: 500px) {
+		.item {
+			width: 150px;
+			height: 300px;
+		}
+		.item-desc {
+			padding: 0 12px 12px;
+			font-size: 0.8em;
+		}
+		.item-desc h3 {
+			font-size: 1em;
+		}
+		.link {
+			font-size: 0.8em;
+		}
+		.carousel {
+			overflow-x: scroll;
+			scroll-snap-type: none;
+			scroll-behavior: smooth;
+			-webkit-overflow-scrolling: touch;
+		}
+		.item.active {
+			width: 250px;
+		}
 	}
 </style>
