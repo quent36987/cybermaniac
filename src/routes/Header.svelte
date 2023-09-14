@@ -26,6 +26,12 @@
 			link: 'impression3d#consommables'
 		}
 	];
+	let isDropdownOpen = false;
+	function handleLinkClick(event, url) {
+		event.preventDefault();  // Empêche la navigation immédiate
+		isDropdownOpen = false; // Ferme le dropdown
+		location.href = url;    // Navigue vers l'URL programmatically
+	}
 </script>
 
 <header>
@@ -37,11 +43,15 @@
 
 	<div class="media-2">
 		<div class="link">
-			<div class="dropdown">
+			<div class="dropdown" on:click={() => isDropdownOpen = !isDropdownOpen}>
 				<a>Services</a>
-				<div class="dropdown-content">
+				<div class="dropdown-content {isDropdownOpen ? 'show' : ''}">
 					{#each services as service}
-						<a href="/about/{service.link}">{service.title}</a>
+						<a
+								href="/about/{service.link}"
+								on:click={e => handleLinkClick(e, "/about/" + service.link)}>
+							{service.title}
+						</a>
 					{/each}
 				</div>
 			</div>
@@ -65,21 +75,27 @@
 
 	.image {
 		width: 100%;
+		max-width: 30vw;
 	}
 
 
 
 	.logo {
 		width: 30rem;
+
 	}
 
 	.FR2PI{
 		width: 10rem;
 	}
 
-	@media (max-width : 500px) {
+	@media (max-width : 650px) {
 		.FR2PI {
 			width: 5rem;
+			display: none;
+		}
+		.image {
+			max-width: none;
 		}
 	}
 
@@ -87,7 +103,7 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-
+		flex: 1;
 	}
 
 
@@ -136,7 +152,7 @@
 		color: #4075a6;
 	}
 
-	@media (max-width : 500px) {
+	@media (max-width : 650px) {
 		.media-1 {
 			width: 100%;
 			display: flex;
@@ -148,7 +164,12 @@
 			padding: 0.5rem 3%;
 		}
 		.link {
-			font-size: 0.8rem;
+			font-size: 0.9rem;
+			gap: 1.5rem;
 		}
+	}
+
+	.dropdown-content.show {
+		display: block;
 	}
 </style>

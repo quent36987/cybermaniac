@@ -14,11 +14,11 @@
 
 	<section class="parking-info">
 		<h2>Possibilité de se garer</h2>
-		<p>Présence de place de parking GRATUITE sur les lieux.</p>
-		<p>Déplacement extérieur le "Lundi, Mercredi ainsi que Vendredi" entre 9h et midi.</p>
+		<p class="p">Présence de place de parking GRATUITE sur les lieux.</p>
+		<p class="p">Déplacement extérieur le "Lundi, Mercredi ainsi que Vendredi" entre 9h et midi.</p>
 	</section>
 
-	<table>
+	<table class="ordi">
 		<thead>
 			<tr>
 				<th />
@@ -54,9 +54,61 @@
 			</tr>
 		</tbody>
 	</table>
+
+
+	<table class="mobile">
+		<thead>
+		<tr>
+			<th></th>
+			<th>MATIN</th>
+			<th>APRES-MIDI</th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr>
+			<td>LUNDI</td>
+			<td>9h00 - 12h00</td>
+			<td>14h00 - 19h00</td>
+		</tr>
+		<tr>
+			<td>MARDI</td>
+			<td>9h00 - 12h00</td>
+			<td>14h00 - 19h00</td>
+		</tr>
+		<tr>
+			<td>MERCREDI</td>
+			<td>9h00 - 12h00</td>
+			<td>14h00 - 19h00</td>
+		</tr>
+		<tr>
+			<td>JEUDI</td>
+			<td>9h00 - 12h00</td>
+			<td>14h00 - 19h00</td>
+		</tr>
+		<tr>
+			<td>VENDREDI</td>
+			<td>9h00 - 12h00</td>
+			<td>14h00 - 19h00</td>
+		</tr>
+		<tr>
+			<td>SAMEDI</td>
+			<td>sur rdv</td>
+			<td>sur rdv</td>
+		</tr>
+		<tr>
+			<td>DIMANCHE</td>
+			<td></td>
+			<td></td>
+		</tr>
+		</tbody>
+	</table>
+
 </div>
 
 <style>
+	iframe {
+		max-width: 90%;
+	}
     .page{
         display: flex;
         flex-direction: column;
@@ -70,7 +122,7 @@
 	table {
 		width: 100%;
 		border-collapse: collapse;
-        max-width: 700px;
+        max-width: min(700px, 80vw);
 	}
 
 	table,
@@ -88,4 +140,26 @@
 	th {
 		background-color: #f2f2f2;
 	}
+	.mobile {
+
+		font-size: 0.6rem;
+	}
+	@media screen and (max-width: 650px) {
+		.ordi {
+			display: none;
+		}
+		.parking-info {
+			font-size: 0.9rem;
+		}
+		.p{
+			font-size: 0.9rem;
+		}
+	}
+	@media screen and (min-width: 650px) {
+		.mobile {
+			display: none;
+
+		}
+	}
+
 </style>

@@ -87,7 +87,7 @@
 </script>
 
 <section class="game-section">
-	<h2 class="line-title">Nos services</h2>
+	<div class="line-title">Nos services</div>
 	<div class="carousel">
 		{#each services as game, index}
 			<div
@@ -123,6 +123,7 @@
 	.line-title {
 		font-family: Century Gothic, Arial, sans-serif;
 		font-size: 30px;
+		margin-bottom: var(--spacing-l);
 	}
 	.line-title::before,
 	.line-title::after {
@@ -237,7 +238,7 @@
 		background-color: #333;
 	}
 
-	@media (max-width: 500px) {
+	@media (max-width: 650px) {
 		.item {
 			width: 150px;
 			height: 300px;
@@ -260,6 +261,9 @@
 		}
 		.item.active {
 			width: 250px;
+		}
+		.game-section {
+			padding: 5px 5px;
 		}
 	}
 </style>

@@ -41,7 +41,7 @@
 
     .store-image {
         width: 100%;
-        max-width: 600px;
+
         margin: 0 auto;
         display: block;
         border-radius: 8px;
@@ -67,11 +67,18 @@
     h2 {
         margin-top: 2rem;
         margin-bottom: 1rem;
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         color: #333;
     }
 
     p {
         margin-bottom: 1rem;
+    }
+
+    @media(max-width: 650px) {
+        main {
+            line-height: 1;
+            font-size: 0.8rem;
+        }
     }
 </style>

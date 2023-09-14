@@ -13,6 +13,7 @@
 	<footer>
 		<p>© cybermaniac2007</p>
 		<a class="link" href="/condition">informations légales</a>
+		<img src="/logoFRP2I.png" alt="FR2PI" class="FR2PI" />
 	</footer>
 </div>
 
@@ -51,13 +52,18 @@
 		color: var(--color-primary);
 	}
 
+	.FR2PI {
+		display: none;
+		width: 5rem;
+	}
+
 	@media (min-width: 480px) {
 		footer {
 			padding: 12px 0;
 		}
 	}
 
-	@media (max-width: 500px) {
+	@media (max-width: 600px) {
 		.link{
 			position: relative;
 			margin-right: 0;
@@ -65,6 +71,12 @@
 		footer {
 			padding: 12px 0;
 			justify-content: space-between;
+		}
+		.FR2PI {
+			display: block;
+			position: absolute;
+			bottom: 0;
+			right: 0;
 		}
 	}
 </style>

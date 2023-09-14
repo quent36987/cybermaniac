@@ -74,7 +74,10 @@
 			padding: var(--spacing-m);
 		}
 		.title {
-			font-size: 1.2rem;
+			font-size: 1rem;
+		}
+		.desc {
+			font-size: 0.9rem;
 		}
 	}
 </style>

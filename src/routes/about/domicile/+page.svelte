@@ -1,8 +1,7 @@
 <script>
-	// Votre script JavaScript si nécessaire
 </script>
 
-<div class="content-wrapper">
+<div class="content-wrapper" >
 	<div class="title">Déplacement à domicile</div>
 
 	<div class="page">
