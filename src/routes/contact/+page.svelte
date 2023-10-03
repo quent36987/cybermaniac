@@ -36,12 +36,12 @@
     main {
         font-family: 'Arial', sans-serif;
         padding: 2rem;
-        line-height: 1.6;
+        line-height: 1;
     }
 
     .store-image {
         width: 100%;
-
+        max-width: 700px;
         margin: 0 auto;
         display: block;
         border-radius: 8px;
@@ -77,7 +77,6 @@
 
     @media(max-width: 650px) {
         main {
-            line-height: 1;
             font-size: 0.8rem;
         }
     }

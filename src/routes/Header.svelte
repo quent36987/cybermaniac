@@ -43,7 +43,7 @@
 
 	<div class="media-2">
 		<div class="link">
-			<div class="dropdown" on:click={() => isDropdownOpen = !isDropdownOpen}>
+			<div class="dropdown" on:click={() => isDropdownOpen = !isDropdownOpen} on:mouseleave={() => isDropdownOpen = false}>
 				<a>Services</a>
 				<div class="dropdown-content {isDropdownOpen ? 'show' : ''}">
 					{#each services as service}
