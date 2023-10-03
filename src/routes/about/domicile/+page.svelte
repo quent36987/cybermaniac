@@ -19,6 +19,38 @@
 			<img class="image" src="/about/domicile/image1.png" alt="Déplacement à domicile" />
 		</div>
 	</div>
+
+		<div class="tariffs-wrapper">
+			<div class="title">Zones et Tarifs</div>
+
+			<div class="tariff-section">
+				<div class="zone" style="background-color: #98FB98;">
+					<h2>Zone Verte :</h2>
+					<p>Tarif Minimum de Déplacement : 20€.</p>
+				</div>
+
+				<div class="zone" style="background-color: #FFFF99;">
+					<h2>Zone Jaune :</h2>
+					<p>Tarif Minimum de Déplacement : 55€.</p>
+				</div>
+
+				<div class="zone">
+					<h2>Hors Zones (En dehors de Saint-Étienne) :</h2>
+					<p>Tarif Minimum de Déplacement : 55€</p>
+					<p>Frais Additionnels : 1.5€ par kilomètre parcouru.</p>
+				</div>
+
+				<div class="supplements">
+					<h2>Suppléments et Conditions :</h2>
+
+					<p><strong>Supplément pour Temps Additionnel :</strong><br/>
+						20€ par tranche de 30 minutes supplémentaires après la première heure sur place.</p>
+
+					<p><strong>Interruption du Service :</strong><br/>
+						Si la situation n'évolue pas après 2 heures sur place, le technicien se réserve le droit d'interrompre le rendez-vous pour éviter des frais supplémentaires et garantir un service de qualité.</p>
+				</div>
+			</div>
+		</div>
 </div>
 
 <style>
@@ -78,5 +110,33 @@
 		.desc {
 			font-size: 0.8rem;
 		}
+	}
+
+	.tariffs-wrapper {
+		margin-top: var(--spacing-xl);
+	}
+
+	.tariff-section {
+		display: flex;
+		flex-direction: column;
+		gap: var(--spacing-l);
+	}
+
+	.zone, .supplements {
+		background-color: #F8F8F8;
+		padding: var(--spacing-m);
+		border-radius: 5px;
+	}
+
+	.zone h2, .supplements h2 {
+		font-size: 1.2rem;
+		color: #333;
+		margin-bottom: var(--spacing-s);
+	}
+
+	.zone p, .supplements p {
+		font-size: 1rem;
+		color: #555;
+		line-height: 1.6;
 	}
 </style>
