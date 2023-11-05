@@ -25,6 +25,10 @@
         {
             title: 'Vente de consommables',
             link: 'impression3d#consommables'
+        },
+        {
+            title: 'Impression personnalisée',
+            link: 'impression'
         }
     ];
     let isDropdownOpen = false;
