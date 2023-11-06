@@ -1,0 +1,19 @@
+FROM node:18-alpine AS builder
+
+ARG PUBLIC_STORE_URL
+
+ENV PUBLIC_STORE_URL=${PUBLIC_STORE_URL}
+
+WORKDIR /app
+
+COPY package.json ./
+
+RUN npm install
+
+COPY . .
+
+RUN npm run build
+
+EXPOSE 3000
+
+CMD ["node", "build"]
