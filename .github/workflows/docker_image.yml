@@ -21,5 +21,12 @@ jobs:
 
     - name: Build and push Docker image
       run: |
-        docker build -t ghcr.io/${{ github.repository }}:latest .
-        docker push ghcr.io/${{ github.repository }}:latest
+        mv .env.online .env
+        docker build -t ghcr.io/${{ github.repository }}:online .
+        docker push ghcr.io/${{ github.repository }}:online
+
+    - name: Build and push Docker image
+      run: |
+        mv .env.home .env
+        docker build -t ghcr.io/${{ github.repository }}:home .
+        docker push ghcr.io/${{ github.repository }}:home
