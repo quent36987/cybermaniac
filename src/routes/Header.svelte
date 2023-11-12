@@ -64,7 +64,7 @@
             </div>
             <a href="{env.PUBLIC_STORE_URL}" target="_blank">Boutique</a>
             <a href="/plan">Plan d'accès</a>
-            <a href="/contact">Contact</a>
+            <a href="/contact">Contact !</a>
         </div>
         <a href="https://www.frp2i.fr/" target="_blank">
             <img src="/logoFRP2I.png" alt="FR2PI" class="FR2PI"/>
