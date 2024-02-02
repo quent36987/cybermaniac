@@ -3,33 +3,47 @@
 
     let services = [
         {
-            title: "Vente d'équipements",
-            link: 'vente'
+            title: 'Informatique',
+            link: 'vente',
+            subServices: [
+                {
+                    title: 'Entretiens de vos équipements',
+                    link: 'entretiens'
+                },
+                {
+                    title: "Vente d'équipements",
+                    link: 'vente'
+                },
+                {
+                    title: 'Montage de PC',
+                    link: 'vente'
+                }
+            ]
         },
         {
-            title: 'Entretiens de vos équipements',
-            link: 'entretiens'
+            title: 'Impression 3D',
+            link: 'impression3d',
+            subServices: [
+                {
+                    title: 'Modélisation Technique',
+                    link: 'impression3d#modelisation'
+                },
+                {
+                    title: 'Impression 3D FDM',
+                    link: 'impression3d'
+                },
+                {
+                    title: 'Vente de consommables',
+                    link: 'impression3d#consommables'
+                },
+            ]
         },
         {
             title: 'Déplacement à domicile',
-            link: 'domicile'
+            link: 'domicile',
+            subServices: []
         },
-        {
-            title: 'Impression 3D FDM et Résine',
-            link: 'impression3d'
-        },
-        {
-            title: 'Modélisation Technique',
-            link: 'impression3d#modelisation'
-        },
-        {
-            title: 'Vente de consommables',
-            link: 'impression3d#consommables'
-        },
-       /* {
-            title: 'Impression personnalisée',
-            link: 'impression'
-        }*/
+
     ];
     let isDropdownOpen = false;
 
@@ -59,6 +73,14 @@
                                 on:click={e => handleLinkClick(e, "/about/" + service.link)}>
                             {service.title}
                         </a>
+                        {#each service.subServices as subService}
+                            <a
+                                    class="subService"
+                                    href="/about/{subService.link}"
+                                    on:click={e => handleLinkClick(e, "/about/" + subService.link)}>
+                                {subService.title}
+                            </a>
+                        {/each}
                     {/each}
                 </div>
             </div>
@@ -81,6 +103,11 @@
         justify-content: space-between;
         align-items: center;
         padding: 0.5rem 3%;
+    }
+
+    .subService {
+        margin-left: 1rem;
+        font-size: 0.9rem;
     }
 
     .image {
@@ -135,7 +162,7 @@
     .dropdown-content {
         display: none;
         position: absolute;
-        z-index: 1;
+        z-index: 100;
         background-color: #f9f9f9;
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
         padding: 12px 16px;
@@ -177,6 +204,11 @@
         .link {
             font-size: 0.9rem;
             gap: 1.5rem;
+        }
+
+        .subService {
+            margin-left: 0.5rem;
+            font-size: 0.7rem;
         }
     }
 

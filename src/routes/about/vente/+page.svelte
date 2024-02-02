@@ -80,7 +80,7 @@
         <div class="title">Ordinateurs portable</div>
         <p class="description">
             Nous proposons principalement des PC portables de la marque Tera, reconnue pour sa qualité et offrant des
-            appareils de très bonne qualité. Chez nous, vous trouverez une sélection de PC portables Tera adaptés à
+            appareils de très bonne qualité. Chez nous, vous trouverez une sélection de PC portables Teras adaptés à
             divers besoins, que vous soyez étudiant, professionnel ou gamer. Faites confiance à notre expertise pour
             vous aider à trouver le PC portable idéal pour travailler, étudier ou vous divertir, répondant à vos
             attentes en matière de mobilité, performances et qualité de construction.

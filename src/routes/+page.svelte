@@ -1,15 +1,10 @@
 <script>
+    import Carousel from "./Carousel.svelte";
+
     let activeIndex = 0;
     let cardElements = [];
     let dots = [];
     const services = [
-        {
-            name: 'Entretiens de vos équipements',
-            description:
-                'Expertise en entretien informatique avec devis gratuit. Votre satisfaction est notre priorité.',
-            image: '/entretien.jpeg',
-            link: 'entretiens'
-        },
         {
             name: 'Vente Informatique',
             description:
@@ -18,37 +13,18 @@
             link: 'vente'
         },
         {
+            name: 'Impression 3D',
+            description: "Réparation d'objets et création personnalisée grâce à l'impression 3D.",
+            image: '/impression.jpg',
+            link: 'impression3d'
+        },
+        {
             name: 'Déplacement à domicile',
             description:
                 'Partenariat avec Frozeyes IMR pour des interventions à domicile. Solutions rapides par des experts.',
             image: '/domicil.jpg',
             link: 'domicile'
         },
-        {
-            name: 'Impression 3D FDM',
-            description: "Réparation d'objets et création personnalisée grâce à l'impression 3D.",
-            image: '/impression.jpg',
-            link: 'impression3d'
-        },
-        {
-            name: 'Impression 3D Résine',
-            description: 'Créations de précision avec impression en résine pour vos projets.',
-            image: '/resine.jpg',
-            link: 'impression3d'
-        },
-        {
-            name: 'Modélisation Technique',
-            description: 'Redonnez vie à vos objets et plans avec notre service de modélisation 3D.',
-            image: '/modelisation.jpg',
-            link: 'impression3d#modelisation'
-        },
-        {
-            name: 'Vente de consommables',
-            description:
-                "Conseils sur les matériaux adaptés et vente de matières premières pour l'impression 3D.",
-            image: '/materiaux.jpg',
-            link: 'impression3d#consommables'
-        }
     ];
 
     function setActive(index) {
@@ -90,9 +66,25 @@
             behavior: 'smooth'
         });
     }
+
+    let currentIndex = 0;
+    const imageUrls = [
+        'https://admin.cybermaniac.fr/uploads/1699289230238-20231103_132609.jpg',
+        'https://admin.cybermaniac.fr/uploads/1698240352072-20231025_145427.jpg',
+        'https://admin.cybermaniac.fr/uploads/1698241736826-20231025_145459.jpg',
+        'https://admin.cybermaniac.fr/uploads/1706872419647-IMG_20240202_120520.jpg',
+        'https://admin.cybermaniac.fr/uploads/1703001830493-IMG_20231219_165047.jpg',
+    ];
+
 </script>
 
 <section class="game-section">
+    <Carousel autoplay="2000" class="carousel1" currentIndex={currentIndex}>
+        {#each imageUrls as imageUrl, index}
+            <img class="image-carousel" src={imageUrl} alt="image"/>
+        {/each}
+    </Carousel>
+
     <div class="line-title">Nos services</div>
     <div class="carousel">
         {#each services as game, index}
@@ -131,6 +123,24 @@
         font-size: 30px;
         margin-bottom: var(--spacing-l);
     }
+
+    .image-carousel{
+        height: 15vh;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        transition: transform 0.5s ease;
+    }
+
+    .carousel1 {
+        display: flex;
+        /*gap: var(--spacing-m);*/
+        overflow: hidden;
+        height: 10vh;
+    }
+
 
     .line-title::before,
     .line-title::after {
