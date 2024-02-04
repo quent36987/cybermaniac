@@ -1,6 +1,4 @@
 <script>
-    import Carousel from "./Carousel.svelte";
-
     let activeIndex = 0;
     let cardElements = [];
     let dots = [];
@@ -67,23 +65,11 @@
         });
     }
 
-    let currentIndex = 0;
-    const imageUrls = [
-        'https://admin.cybermaniac.fr/uploads/1699289230238-20231103_132609.jpg',
-        'https://admin.cybermaniac.fr/uploads/1698240352072-20231025_145427.jpg',
-        'https://admin.cybermaniac.fr/uploads/1698241736826-20231025_145459.jpg',
-        'https://admin.cybermaniac.fr/uploads/1706872419647-IMG_20240202_120520.jpg',
-        'https://admin.cybermaniac.fr/uploads/1703001830493-IMG_20231219_165047.jpg',
-    ];
 
 </script>
 
 <section class="game-section">
-    <Carousel autoplay="2000" class="carousel1" currentIndex={currentIndex}>
-        {#each imageUrls as imageUrl, index}
-            <img class="image-carousel" src={imageUrl} alt="image"/>
-        {/each}
-    </Carousel>
+    <img class="image" src="/images.gif"/>
 
     <div class="line-title">Nos services</div>
     <div class="carousel">
@@ -124,9 +110,11 @@
         margin-bottom: var(--spacing-l);
     }
 
-    .image-carousel{
+    .image{
         height: 15vh;
+        border-radius: var(--border-radius);
     }
+
 
     img {
         max-width: 100%;
