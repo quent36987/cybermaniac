@@ -69,7 +69,15 @@
 </script>
 
 <section class="game-section">
-    <img class="image" src="/images.gif"/>
+<!--    <img class="image" src="/images.gif"/>-->
+    <div class="banner">
+        <img src="/banner.jpg" alt="Impression 3D - Votre créativité sans limite">
+        <div class="banner-text">
+            <h2>Votre créativité sans limite</h2>
+            <div class="banner-sub">Découvrez nos solutions d'impression 3D</div>
+        </div>
+    </div>
+
 
     <div class="line-title">Nos services</div>
     <div class="carousel">
@@ -103,6 +111,43 @@
 </section>
 
 <style>
+
+    .banner {
+        width: 90vw;
+        height: 17vh;
+        border-radius: var(--border-radius);
+        background: #4075a6;
+        position: relative;
+        margin-bottom: var(--spacing-l);
+        overflow: hidden;
+    }
+
+    .banner img {
+        width: 100%;
+    }
+
+    .banner-text {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        color: #fff;
+        background: rgba(68, 68, 68, 0.73);
+        border-radius: var(--border-radius);
+        padding: 5px;
+    }
+
+    .banner-text h2 {
+        font-size: 24px;
+        font-weight: bold;
+        margin: 0px;
+    }
+
+    .banner-sub {
+        font-size: 16px;
+    }
+
+
+
     /* Title style */
     .line-title {
         font-family: Century Gothic, Arial, sans-serif;
@@ -116,11 +161,11 @@
     }
 
 
-    img {
-        max-width: 100%;
-        height: auto;
-        transition: transform 0.5s ease;
-    }
+    /*img {*/
+    /*    max-width: 100%;*/
+    /*    height: auto;*/
+    /*    transition: transform 0.5s ease;*/
+    /*}*/
 
     .carousel1 {
         display: flex;
