@@ -157,7 +157,7 @@
             </div>
 
             <div class="images">
-                <img class="image" src="/about/impression3d/image1.png" alt="Entretiens d'imprimantes"/>
+                <img class="image" src="/polyfab3d.jpg" alt="Entretiens d'imprimantes"/>
             </div>
         </div>
     </div>
