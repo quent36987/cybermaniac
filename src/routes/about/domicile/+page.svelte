@@ -6,20 +6,14 @@
 
     <div class="page">
         <div class="desc">
-            Vous pouvez faire appel à notre service de déplacement à domicile pour tous types de problèmes
-            informatiques. Nous intervenons sur les appareils Windows et Mac, et pour les utilisateurs de Mac, notre
-            service se fait exclusivement à domicile.<br/><br/>
+            Vous pouvez faire appel à notre service de déplacement à domicile grâce à notre partenaire de chez FROZEYES
+            IMR.<br/><br/>
 
-            Ce service est fourni en partenariat avec notre prestataire de confiance, <strong>Frozeyes IMR</strong>.
-            Leur technicien qualifié se rendra chez vous pour résoudre vos problèmes informatiques de manière
-            professionnelle et efficace.<br/><br/>
+            Notre technicien se rendra à votre domicile pour tout problème informatique (MAC ou PC) ou une installation
+            de matéreil acheter en boutique.<br/><br/>
 
-            Pour prendre rendez-vous, vous pouvez nous contacter par téléphone au <strong>06 95 84 14 57</strong> ou au
-            <strong>06 84 25 25 27</strong>. Chez CyberManiac, nous comprenons l'importance d'une assistance
-            informatique à domicile pour résoudre rapidement vos problèmes.<br/><br/>
-
-            N'hésitez pas à solliciter notre service de déplacement à domicile et faites confiance à notre équipe
-            expérimentée pour résoudre vos problèmes informatiques.
+            Prise de rendez-vous en boutique ou au <strong> 06.95.84.14.57 </strong>
+            N’hésitez pas !
         </div>
 
         <div class="images">
@@ -30,37 +24,43 @@
     <div class="tariffs-wrapper">
         <div class="title">Zones et Tarifs</div>
 
-        <img class="image2" src="/about/domicile/image2.png" alt="Déplacement à domicile"/>
+        <div class="container">
 
-        <div class="tariff-section">
-            <div class="zone" style="background-color: #98FB98;">
-                <h2>Zone Verte :</h2>
-                <p>Tarif Minimum de Déplacement : 20€.</p>
+
+            <div>
+                <img class="image2" src="/about/domicile/image2.png" alt="Déplacement à domicile"/>
             </div>
 
-            <div class="zone" style="background-color: #FFFF99;">
-                <h2>Zone Jaune :</h2>
-                <p>Tarif Minimum de Déplacement : 55€.</p>
-            </div>
+            <div class="tariff-section">
+                <div class="zone" style="background-color: #98FB98;">
+                    <h2>Zone Verte :</h2>
+                    <p>Tarif Minimum de Déplacement : 20€.</p>
+                </div>
 
-            <div class="zone">
-                <h2>Hors Zones (En dehors de Saint-Étienne) :</h2>
-                <p>Tarif Minimum de Déplacement : 55€</p>
-                <p>Frais Additionnels : 1.5€ par kilomètre parcouru.</p>
-            </div>
+                <div class="zone" style="background-color: #FFFF99;">
+                    <h2>Zone Jaune :</h2>
+                    <p>Tarif Minimum de Déplacement : 55€.</p>
+                </div>
 
-            <div class="supplements">
-                <h2>Suppléments et Conditions :</h2>
+                <div class="zone">
+                    <h2>Hors Zones (En dehors de Saint-Étienne) :</h2>
+                    <p>Tarif Minimum de Déplacement : 55€</p>
+                    <p>Frais Additionnels : 1.5€ par kilomètre parcouru.</p>
+                </div>
 
-                <p><strong>Supplément pour Temps Additionnel :</strong><br/>
-                    20€ par tranche de 30 minutes supplémentaires après la première heure sur place.</p>
-
-                <p><strong>Interruption du Service :</strong><br/>
-                    Si la situation n'évolue pas après 2 heures sur place, le technicien se réserve le droit
-                    d'interrompre le rendez-vous pour éviter des frais supplémentaires et garantir un service de
-                    qualité.</p>
             </div>
         </div>
+                <div class="supplements">
+                    <h2>Suppléments et Conditions :</h2>
+
+                    <p><strong>Supplément pour Temps Additionnel :</strong><br/>
+                        20€ par tranche de 30 minutes supplémentaires après la première heure sur place.</p>
+
+                    <p><strong>Interruption du Service :</strong><br/>
+                        Si la situation n'évolue pas après 2 heures sur place, le technicien se réserve le droit
+                        d'interrompre le rendez-vous pour éviter des frais supplémentaires et garantir un service de
+                        qualité.</p>
+                </div>
     </div>
 </div>
 
@@ -77,6 +77,11 @@
         padding-bottom: var(--spacing-l);
         border-bottom: 3px solid #E0E0E0;
         margin-bottom: var(--spacing-l);
+    }
+
+    .container {
+        display: flex;
+        gap: var(--spacing-l);
     }
 
     .page {
@@ -165,6 +170,11 @@
 
         .image2 {
             max-width: 100%;
+        }
+
+        .container {
+            flex-direction: column;
+            gap: 0px;
         }
     }
 

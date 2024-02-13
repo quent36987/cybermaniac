@@ -8,9 +8,7 @@
 
         <div class="page">
             <div class="desc">
-                Notre équipe de professionnels qualifiés est disponible pour offrir des conseils et des
-                recommandations pour aider nos clients à trouver les produits et les services qui
-                conviennent le mieux à leurs besoins et à leur budget, une livraison rapide et fiable.
+                Notre équipe de professionnels est disponible pour vous offrir conseils et recommandations pour vos projets avec le budget le plus adapté.
             </div>
 
             <div class="images">
@@ -20,148 +18,129 @@
     </div>
 
     <div class="section">
-        <div class="title">Ordinateurs Fixe</div>
+        <div class="title">Ordinateurs</div>
 
         <div class="page">
             <div class="images">
-                <img class="image" src="/about/vente/image2.jpg" alt="Entretiens d'imprimantes"/>
+                <img src="/about/vente/image12.jpg" alt="Image 4" class="image"/>
             </div>
             <div class="desc">
-                Chez CyberManiac, nous sommes fiers de proposer un service de montage de PC fixe
-                spécialement conçu pour répondre à vos besoins en bureautique, en offrant le meilleur
-                rapport qualité-prix possible.
+                Nous vous proposos un montage de PC fixe sur mesure en fonction de vos besoins et de vos exigeances.
                 <br/><br/>
-
-                Notre équipe est dévouée à vous fournir une configuration qui correspondra parfaitement à
-                vos attentes. Nous tenons compte de vos exigences spécifiques en termes de performances, de
-                fiabilité et de budget afin de vous offrir la solution la plus adaptée.
+                Nous proposons aussi une gamme d’ordianateurs portable de la marque <a href="https://www.terra-computer.fr/" target="_blank">Terra</a>
+                <br/><br/>
+                Toute nos machines sont testés avant de vous les remettre en main-propre.
+                Pour toute demande de livraison, consultez l’espace <a href="/about/domicile">Livraison à domicile</a>.
             </div>
         </div>
     </div>
 
-    <div class="section">
-        <div class="title">Montage sur mesure</div>
-        <p class="description">
-            Nous valorisons la qualité de notre assemblage de PC, assurant l'installation et la configuration précises
-            des composants et effectuant des tests rigoureux pour garantir performances et stabilité pour le gaming.
-            Chez CyberManiac, nous vous fournissons une configuration de PC gaming adaptée à vos besoins et budget, tout
-            en visant une expérience de jeu optimale.
-        </p>
-        <div class="image-gallery">
-            <div class="img-wrapper">
-                <img src="/about/vente/image4.jpg" alt="Image 4"/>
-            </div>
-            <div class="img-wrapper">
-                <img src="/about/vente/image11.jpg" alt="Image 11"/>
-            </div>
-            <div class="img-wrapper">
-                <img src="/about/vente/image5.jpg" alt="Image 5"/>
-            </div>
-            <div class="img-wrapper">
-                <img src="/about/vente/image10.jpg" alt="Image 10"/>
-            </div>
+<!--    <div class="section">-->
+<!--        <div class="title">Montage sur mesure</div>-->
+<!--        <p class="description">-->
+<!--            Nous valorisons la qualité de notre assemblage de PC, assurant l'installation et la configuration précises-->
+<!--            des composants et effectuant des tests rigoureux pour garantir performances et stabilité pour le gaming.-->
+<!--            Chez CyberManiac, nous vous fournissons une configuration de PC gaming adaptée à vos besoins et budget, tout-->
+<!--            en visant une expérience de jeu optimale.-->
+<!--        </p>-->
+<!--        <div class="image-gallery">-->
+<!--            <div class="img-wrapper">-->
+<!--                <img src="/about/vente/image4.jpg" alt="Image 4"/>-->
+<!--            </div>-->
+<!--            <div class="img-wrapper">-->
+<!--                <img src="/about/vente/image11.jpg" alt="Image 11"/>-->
+<!--            </div>-->
+<!--            <div class="img-wrapper">-->
+<!--                <img src="/about/vente/image5.jpg" alt="Image 5"/>-->
+<!--            </div>-->
+<!--            <div class="img-wrapper">-->
+<!--                <img src="/about/vente/image10.jpg" alt="Image 10"/>-->
+<!--            </div>-->
 
-            <div class="img-wrapper">
-                <img src="/about/vente/image7.jpg" alt="Image 7"/>
-            </div>
-            <div class="img-wrapper">
-                <img src="/about/vente/image8.jpg" alt="Image 8"/>
-            </div>
-            <div class="img-wrapper">
-                <img src="/about/vente/image9.jpg" alt="Image 9"/>
-            </div>
-            <div class="img-wrapper">
-                <img src="/about/vente/image6.jpg" alt="Image 6"/>
-            </div>
-        </div>
-    </div>
+<!--            <div class="img-wrapper">-->
+<!--                <img src="/about/vente/image7.jpg" alt="Image 7"/>-->
+<!--            </div>-->
+<!--            <div class="img-wrapper">-->
+<!--                <img src="/about/vente/image8.jpg" alt="Image 8"/>-->
+<!--            </div>-->
+<!--            <div class="img-wrapper">-->
+<!--                <img src="/about/vente/image9.jpg" alt="Image 9"/>-->
+<!--            </div>-->
+<!--            <div class="img-wrapper">-->
+<!--                <img src="/about/vente/image6.jpg" alt="Image 6"/>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
 
-    <div class="section">
-        <div class="title">Ordinateurs portable</div>
-        <p class="description">
-            Nous proposons principalement des PC portables de la marque Tera, reconnue pour sa qualité et offrant des
-            appareils de très bonne qualité. Chez nous, vous trouverez une sélection de PC portables Teras adaptés à
-            divers besoins, que vous soyez étudiant, professionnel ou gamer. Faites confiance à notre expertise pour
-            vous aider à trouver le PC portable idéal pour travailler, étudier ou vous divertir, répondant à vos
-            attentes en matière de mobilité, performances et qualité de construction.
-        </p>
-        <div class="image-gallery">
-            <div class="img-wrapper">
-                <img src="/about/vente/image12.jpg" alt="Image 4"/>
-            </div>
-            <div class="img-wrapper">
-                <img src="/about/vente/image13.jpg" alt="Image 11"/>
-            </div>
-            <div class="img-wrapper">
-                <img src="/about/vente/image24.jpg" alt="Image 24"/>
-            </div>
-        </div>
-    </div>
+<!--    <div class="section">-->
+<!--        <div class="title">Ordinateurs portable</div>-->
+<!--        <p class="description">-->
+<!--            Nous proposons principalement des PC portables de la marque Tera, reconnue pour sa qualité et offrant des-->
+<!--            appareils de très bonne qualité. Chez nous, vous trouverez une sélection de PC portables Teras adaptés à-->
+<!--            divers besoins, que vous soyez étudiant, professionnel ou gamer. Faites confiance à notre expertise pour-->
+<!--            vous aider à trouver le PC portable idéal pour travailler, étudier ou vous divertir, répondant à vos-->
+<!--            attentes en matière de mobilité, performances et qualité de construction.-->
+<!--        </p>-->
+<!--        <div class="image-gallery">-->
+<!--            <div class="img-wrapper">-->
+<!--                <img src="/about/vente/image12.jpg" alt="Image 4"/>-->
+<!--            </div>-->
+<!--            <div class="img-wrapper">-->
+<!--                <img src="/about/vente/image13.jpg" alt="Image 11"/>-->
+<!--            </div>-->
+<!--            <div class="img-wrapper">-->
+<!--                <img src="/about/vente/image24.jpg" alt="Image 24"/>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
 
     <div class="section">
         <div class="title">Peripheriques</div>
 
         <div class="page">
             <div class="desc">
-                Chez CyberManiac, nous proposons une variété d'accessoires pour améliorer votre expérience informatique,
-                qu'il s'agisse de travail, de loisirs ou de gaming. Notre équipe est là pour vous conseiller et vous
-                accompagner dans vos choix technologiques.
-            </div>
-
-            <div class="images">
-                <img class="image" src="/about/vente/image14.jpg" alt="Entretiens d'imprimantes"/>
-            </div>
-        </div>
-        <div class="page">
-            <div class="images">
-                <img class="image" src="/about/vente/image15.jpg" alt="Entretiens d'imprimantes"/>
-            </div>
-            <div class="desc">
-                Nous offrons des souris, avec ou sans fil, pour une navigation adaptée à vos besoins, que ce soit pour
-                la bureautique ou le gaming. Pour une expérience audio immersive, découvrez nos casques de qualité,
-                idéaux pour la musique, les jeux et les appels en ligne. De plus, nous proposons des clés Wi-Fi pour une
-                connexion Internet facile et sans fil.
+                Que vous ayez besoin d’un clavier, d’une souris, d’un casque ou d’un quelconque accessoire bureautique ou gaming, nous pouvons vous le fournir, suivant le stock disponible.
             </div>
         </div>
     </div>
 
-    <div class="section">
-        <div class="title">Pièces</div>
-        <p class="description">
-            Nous proposons une large gamme de pièces d’ordinateur de marques renommées pour construire, mettre à niveau
-            ou réparer votre système. Notre sélection inclut des cartes mères, cartes graphiques, mémoire RAM, solutions
-            de stockage et plus. Notre équipe est là pour vous guider vers les composants essentiels pour une expérience
-            informatique optimale.
-        </p>
-        <div class="image-gallery">
-            <div class="img-wrapper">
-                <img src="/about/vente/image17.jpg" alt="Image 11"/>
-            </div>
-            <div class="img-wrapper">
-                <img src="/about/vente/image21.jpg" alt="Image 8"/>
-            </div>
-            <div class="img-wrapper">
-                <img src="/about/vente/image16.jpg" alt="Image 4"/>
-            </div>
-            <div class="img-wrapper">
-                <img src="/about/vente/image18.jpg" alt="Image 5"/>
-            </div>
-            <div class="img-wrapper">
-                <img src="/about/vente/image19.jpg" alt="Image 10"/>
-            </div>
+<!--    <div class="section">-->
+<!--        <div class="title">Pièces</div>-->
+<!--        <p class="description">-->
+<!--            Nous proposons une large gamme de pièces d’ordinateur de marques renommées pour construire, mettre à niveau-->
+<!--            ou réparer votre système. Notre sélection inclut des cartes mères, cartes graphiques, mémoire RAM, solutions-->
+<!--            de stockage et plus. Notre équipe est là pour vous guider vers les composants essentiels pour une expérience-->
+<!--            informatique optimale.-->
+<!--        </p>-->
+<!--        <div class="image-gallery">-->
+<!--            <div class="img-wrapper">-->
+<!--                <img src="/about/vente/image17.jpg" alt="Image 11"/>-->
+<!--            </div>-->
+<!--            <div class="img-wrapper">-->
+<!--                <img src="/about/vente/image21.jpg" alt="Image 8"/>-->
+<!--            </div>-->
+<!--            <div class="img-wrapper">-->
+<!--                <img src="/about/vente/image16.jpg" alt="Image 4"/>-->
+<!--            </div>-->
+<!--            <div class="img-wrapper">-->
+<!--                <img src="/about/vente/image18.jpg" alt="Image 5"/>-->
+<!--            </div>-->
+<!--            <div class="img-wrapper">-->
+<!--                <img src="/about/vente/image19.jpg" alt="Image 10"/>-->
+<!--            </div>-->
 
-            <div class="img-wrapper">
-                <img src="/about/vente/image20.jpg" alt="Image 7"/>
-            </div>
-            <div class="img-wrapper">
-                <img src="/about/vente/image23.jpg" alt="Image 6"/>
-            </div>
+<!--            <div class="img-wrapper">-->
+<!--                <img src="/about/vente/image20.jpg" alt="Image 7"/>-->
+<!--            </div>-->
+<!--            <div class="img-wrapper">-->
+<!--                <img src="/about/vente/image23.jpg" alt="Image 6"/>-->
+<!--            </div>-->
 
-            <div class="img-wrapper">
-                <img src="/about/vente/image22.jpg" alt="Image 9"/>
-            </div>
-        </div>
-    </div>
+<!--            <div class="img-wrapper">-->
+<!--                <img src="/about/vente/image22.jpg" alt="Image 9"/>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
 </div>
 
 <style>

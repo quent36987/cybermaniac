@@ -5,16 +5,10 @@
 <div class="content-wrapper">
     <!-- Section : Nos Imprimantes 3D FDM et SLA -->
     <div class="section">
-        <div class="title">Nos Imprimantes 3D FDM et SLA</div>
         <p class="description">
-            Chez nous, la diversité est le maître-mot lorsqu'il s'agit de nos imprimantes 3D. Nous
-            disposons d'une gamme variée d'imprimantes de différents gabarits, capables d'imprimer toutes
-            sortes de pièces, que ce soit en plastique ou en résine. Ces machines précises et polyvalentes
-            sont sollicitées pour une multitude d'applications : qu'il s'agisse de pièces techniques
-            nécessitant une précision millimétrique, de petites réparations du quotidien ou encore de
-            créations décoratives uniques. En dessous, vous trouverez quelques exemples illustrant les
-            innombrables possibilités qu'offrent nos équipements.
+            Nous disposons d’une large gamme d’imprimantes 3D, ce qui nous permet d’avoir une grande liberté concernant nos impressions ou vos projets tant sur l’impression résine que sur les impression en filament.
         </p>
+        <div class="title"></div>
         <div class="image-gallery">
             <div class="img-wrapper">
                 <img src="/about/impression3d/section1/image1.jpg" alt="Image 1"/>
@@ -122,11 +116,8 @@
     <div class="section" id="modelisation">
         <div class="title">Nos modélisation</div>
         <p class="description">
-            Nous offrons un service d'impression 3D pour particuliers et professionnels, adaptant matériaux et solutions
-            à vos besoins. Pour les pièces techniques, nous utilisons l'ASA pour sa résistance. Que vous ayez besoin
-            d'une pièce de rechange ou de composants spécifiques, notre équipe est là pour vous assurer qualité et
-            précision. En choisissant nos services, vous bénéficierez d'une attention personnalisée, de conseils
-            d'experts et de solutions sur mesure, quel que soit votre secteur d'activité.
+            Nous proposons un service d’impression 3D. Que vous soyez professionnel ou particulier.
+            Que vous ayez besoin d’une pièce de jeux de société, une pièce technique ou simplement d’une figurine, nous sommes là pour vous.
         </p>
         <div class="image-gallery">
             <div class="img-wrapper">
@@ -158,11 +149,11 @@
 
         <div class="page">
             <div class="desc">
-                Nous vendons des consommables pour l'impression 3D, adaptés aux imprimantes FDM et SLA/DLP. Nous avons
-                une variété de filaments pour FDM et des résines de haute qualité pour SLA/DLP, chacun offrant des
-                propriétés spécifiques. Nos produits, issus de fabricants réputés, assurent performance et qualité pour
-                vos projets d'impression 3D. Contactez-nous pour découvrir notre gamme et obtenir des conseils sur les
-                meilleurs matériaux pour vos besoins.
+                Notre partenariat avec <a href="https://www.polyfab3d.fr/" target="_blank">Polyfab3D</a>
+                nous permet de vous procurer une bonne qualité de nos produits (filaments et résines).
+                En cas de besoin, nous vous proposons de réparer vos imprimantes 3D. Pour tout changements de pièces, nous pouvons vous conseiller sur notre gamme de composant FDM et SLA/DLP
+                <br/><br/>
+                Si vous souhaitez voir nos possibilité imprimable, rendez-vous dans la section <a href="https://boutique.cybermaniac.fr/" target="_blank" >Boutique</a>
             </div>
 
             <div class="images">
@@ -171,23 +162,23 @@
         </div>
     </div>
 
-    <div class="section">
-        <div class="title">Vente de composants</div>
+<!--    <div class="section">-->
+<!--        <div class="title">Vente de composants</div>-->
 
-        <div class="page">
-            <div class="images">
-                <img class="image" src="/about/impression3d/image2.jpg" alt="Entretiens d'imprimantes"/>
-            </div>
-            <div class="desc">
-                Nous offrons des consommables pour imprimantes 3D FDM et SLA/DLP, avec un large choix de filaments de
-                qualité et de résines haut de gamme. Chaque produit est sélectionné pour ses propriétés spécifiques et
-                provient de fabricants fiables, garantissant des résultats de qualité pour vos projets. Contactez-nous
-                pour explorer notre gamme et recevoir des conseils sur les matériaux adaptés à vos besoins.
-            </div>
+<!--        <div class="page">-->
+<!--            <div class="images">-->
+<!--                <img class="image" src="/about/impression3d/image2.jpg" alt="Entretiens d'imprimantes"/>-->
+<!--            </div>-->
+<!--            <div class="desc">-->
+<!--                Nous offrons des consommables pour imprimantes 3D FDM et SLA/DLP, avec un large choix de filaments de-->
+<!--                qualité et de résines haut de gamme. Chaque produit est sélectionné pour ses propriétés spécifiques et-->
+<!--                provient de fabricants fiables, garantissant des résultats de qualité pour vos projets. Contactez-nous-->
+<!--                pour explorer notre gamme et recevoir des conseils sur les matériaux adaptés à vos besoins.-->
+<!--            </div>-->
 
 
-        </div>
-    </div>
+<!--        </div>-->
+<!--    </div>-->
 
 
 </div>

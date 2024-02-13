@@ -78,6 +78,15 @@
         </div>
     </div>
 
+    <div class="line-title">Qui somme nous ?</div>
+    <div class="subtitle">
+        Cybermanaic est une entreprise présente depuis plus de 15 ans dans la région stéphanoise. Pendant 5 ans dans le Cours Fauriel, puis depuis 2023 à la
+        <a href="/plan"> métare </a>
+        <br>
+        Notre équipe est complète : modélisateur 3D, informaticiens, peintre en freelance. Chacun d’eux apporte son expertise pour vous garantir un service complet.
+        Cette nouvelle boutique est le symbole de notre croissance et de notre dévouement envers vous.
+
+    </div>
 
     <div class="line-title">Nos services</div>
     <div class="carousel">
@@ -108,6 +117,9 @@
             />
         {/each}
     </div>
+
+
+
 </section>
 
 <style>
@@ -152,6 +164,11 @@
     .line-title {
         font-family: Century Gothic, Arial, sans-serif;
         font-size: 30px;
+        margin-bottom: var(--spacing-l);
+    }
+
+    .subtitle {
+        font-size: 20px;
         margin-bottom: var(--spacing-l);
     }
 
@@ -325,6 +342,11 @@
 
         .game-section {
             padding: 5px 5px;
+        }
+
+        .subtitle {
+            font-size: 14px;
+            margin-bottom: var(--spacing-l);
         }
     }
 </style>
