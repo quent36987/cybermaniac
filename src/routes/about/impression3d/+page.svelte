@@ -149,7 +149,7 @@
 
         <div class="page">
             <div class="desc">
-                Notre partenariat avec <a href="https://www.polyfab3d.fr/" target="_blank">Polyfab3D</a>
+                Notre partenariat avec Polyfab3D
                 nous permet de vous procurer une bonne qualité de nos produits (filaments et résines).
                 En cas de besoin, nous vous proposons de réparer vos imprimantes 3D. Pour tout changements de pièces, nous pouvons vous conseiller sur notre gamme de composant FDM et SLA/DLP
                 <br/><br/>
