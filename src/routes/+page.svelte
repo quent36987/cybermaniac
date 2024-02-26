@@ -80,7 +80,7 @@
 
     <div class="line-title">Qui somme nous ?</div>
     <div class="subtitle">
-        Cybermanaic est une entreprise présente depuis plus de 15 ans dans la région stéphanoise. Pendant 5 ans dans le Cours Fauriel, puis depuis 2023 à la
+        Cybermaniac est une entreprise présente depuis plus de 15 ans dans la région stéphanoise. Pendant 5 ans dans le Cours Fauriel, puis depuis 2023 à la
         <a href="/plan"> métare </a>
         <br>
         Notre équipe est complète : modélisateur 3D, informaticiens, peintre en freelance. Chacun d’eux apporte son expertise pour vous garantir un service complet.
