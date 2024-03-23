@@ -78,7 +78,7 @@
         </div>
     </div>
 
-    <div class="line-title">Qui somme nous ?</div>
+    <div class="line-title">Qui sommes nous ?</div>
     <div class="subtitle">
         Cybermaniac est une entreprise présente depuis plus de 15 ans dans la région stéphanoise. Pendant 5 ans dans le Cours Fauriel, puis depuis 2023 à la
         <a href="/plan"> métare </a>
