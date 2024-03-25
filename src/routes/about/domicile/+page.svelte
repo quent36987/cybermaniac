@@ -10,7 +10,7 @@
             IMR.<br/><br/>
 
             Notre technicien se rendra à votre domicile pour tout problème informatique (MAC ou PC) ou une installation
-            de matéreil acheter en boutique.<br/><br/>
+            de matériel acheté en boutique.<br/><br/>
 
             Prise de rendez-vous en boutique ou au <strong> 06.95.84.14.57 </strong>
             N’hésitez pas !

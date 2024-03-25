@@ -25,11 +25,11 @@
                 <img src="/about/vente/image12.jpg" alt="Image 4" class="image"/>
             </div>
             <div class="desc">
-                Nous vous proposos un montage de PC fixe sur mesure en fonction de vos besoins et de vos exigeances.
+                Nous vous proposons un montage de PC fixe sur mesure en fonction de vos besoins et de vos exigences. Nous vous proposons également de monter vos ordinateur même si les pièces ne sont pas de chez nous.
                 <br/><br/>
-                Nous proposons aussi une gamme d’ordinateurs portable de la marque <a href="https://www.terra-computer.fr/" target="_blank">Terra</a>
+                Nous proposons aussi une gamme d’ordinateurs portables de la marque <a href="https://www.terra-computer.fr/" target="_blank">Terra</a>
                 <br/><br/>
-                Toute nos machines sont testés avant de vous les remettre en main-propre.
+                Toute nos machines sont testées avant de vous les remettre en main-propre.
                 Pour toute demande de livraison, consultez l’espace <a href="/about/domicile">Livraison à domicile</a>.
             </div>
         </div>

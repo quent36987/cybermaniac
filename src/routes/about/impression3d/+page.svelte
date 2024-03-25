@@ -6,7 +6,7 @@
     <!-- Section : Nos Imprimantes 3D FDM et SLA -->
     <div class="section">
         <p class="description">
-            Nous disposons d’une large gamme d’imprimantes 3D, ce qui nous permet d’avoir une grande liberté concernant nos impressions ou vos projets tant sur l’impression résine que sur les impression en filament.
+            Nous disposons d’une large gamme d’imprimantes 3D, ce qui nous permet d’avoir une grande liberté concernant nos impressions ou vos projets tant sur l’impression résine que sur les impressions en filament.
         </p>
         <div class="title"></div>
         <div class="image-gallery">
